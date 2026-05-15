@@ -17,7 +17,7 @@ logInfo('Initializing handlers...');
 eventHandler(client);
 
 // Login
-if (!process.env.BOT_TOKEN || !process.env.CLIENT_ID) {
+if (!process.env.MTUwNDcyMjYyNTQzODQxNjkwNg.G0Hq5s.49fMdArLMgnV0K2HgqXw9JBol9WoJXAT20W8Lk || !process.env.CLIENT_ID) {
     logError('Missing BOT_TOKEN or CLIENT_ID environment variables.');
     process.exit(1);
 }
